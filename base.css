@@ -99,3 +99,77 @@ td{
     font-size: 35px;
     color: #00995D;
 }
+.ctt-local{
+    position: absolute;
+    margin-top: 230px;
+    padding-left: 50px;
+    font-size: 25px;
+    font-family: verdana;
+    color:#00995D;
+}
+.map{
+    position: absolute;
+    margin-top: 450px;
+    padding-left: 50px;
+}
+.contact-text{
+    font-size: 20px;
+    font-family: Verdana;
+    color: gray;
+}
+.contact-num{
+    font-size: 17px;
+    font-family: verdana;
+    color: black;
+}
+.contact-me{
+position: absolute;
+margin-top: 230px;
+padding-left: 1180px;
+font-size: 25px;
+font-family: Verdana;
+color: #00995D;
+}
+.formulario{
+    font-family: Verdana;
+    font-size: 21px;
+    color: #00995D;
+    position:absolute;
+    margin-top: 300px;
+    padding-left: 900px;
+    text-align:end;
+}
+input[type=text], input[type=email]{
+    width: 620px;
+    height: 25px;
+    font-size: 15px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    align-items:baseline;
+    border-radius: 3px;
+    border-color:#B1D34B;
+}
+textarea{
+    font-family: verdana;
+    font-size: 21px;
+    resize: none;
+    border-radius:3px;
+    border-color: #00995D;
+}
+button[type=submit]{
+    border-color: #00995D;
+    border-radius: 6px;
+    width: 100px; height: 30px;
+    font-family: Verdana;
+    font-size: 19px;
+    background-color: #B1D34B;
+    color: #00995D;
+}
+button[type=reset]{
+    border-color: brown;
+    border-radius: 6px;
+    width: 100px; height: 30px;
+    font-family: Verdana;
+    font-size: 19px;
+    background-color:brown;
+}
