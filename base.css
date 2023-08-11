@@ -1,0 +1,101 @@
+body{
+    background-color: #fafafa;
+    height: 100vh;
+    margin: 0px;
+}
+.banner{
+    height: 200px;
+    margin-left: 1140px;
+    position: absolute;
+    z-index: 1;
+}
+.banner-background{
+    height: 200px;
+    width: 1170px;
+    background-color: #00995D;
+    position: absolute;
+}
+.logo{
+    position: absolute;
+    z-index: 1;
+    height: 110px;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+.menu{
+    font-family: Verdana;
+    margin-top: 75px;
+    margin-left: 330px;
+    position: absolute;
+    z-index: 2;
+}
+nav li{
+    font-size: 20px;
+    display: inline-block;
+    margin: 0 0 0 50px;
+}
+nav ul li a{
+    color:lightgray;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+.content-principal{
+    display: flex;
+    justify-content: center;
+}
+.principal{
+    margin-top: 200px;
+    border-radius: 25px;
+    height: 700px;
+}
+.content-about{
+    position: absolute;
+    justify-content: left;
+    margin-top: 250px;
+    margin-left: 50px;
+}
+.content-about-h2{
+    font-size: 40px;
+    font-family: verdana;
+    color: #00995D;
+}
+.verde{
+    font-size: 20.8px;
+    color: #00995D;
+}
+.verde-claro{
+    font-size: 36.8px;
+    color: #B1D34B;
+}
+.content-horario{
+    position: absolute;
+}
+.tab-hora{
+    width: 800px;
+    height: 300px;
+    margin-top: 290px;
+    margin-left: 550px;
+}
+th, td{
+    font-size: 25px;
+    background-color: #B1D34B;
+    font-family: Verdana;
+    color: #00995D;
+    text-align: center;
+    border: 3px solid #B1D34B;
+    border-radius: 10px;
+}
+td{
+    text-decoration: underline;
+}
+.common-text{
+    color: gray;
+}
+.top-tab{
+    font-family: verdana;
+    font-size: 35px;
+    color: #00995D;
+}
